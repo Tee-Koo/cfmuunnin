@@ -1,6 +1,10 @@
+const farenheitSyote = document.querySelector('input');
+const farenheitTuloste = document.querySelector('#fahrenheit');
+const celsiusTuloste = document.querySelector('#celsius');
+const muunnaButton = document.querySelector('button');
+
 function muunna() {
-    
+
 }
 
-const button = document.querySelector('button');
-button.addEventListener('click', function(){});
+muunnaButton.addEventListener('click', function(){});
