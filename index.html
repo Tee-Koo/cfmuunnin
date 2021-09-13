@@ -9,21 +9,21 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header">
-            <h1>°Celsius - °Fahrenheit - Muunnin</h1>
-        </div>
-        <div class="wrapper">
+       
+        <div class="section">
             
+            <div class="otsikko">
+                °Celsius °Fahrenheit Muunnin             
+            </div>
+
             <div class="container">
-                
                 <label for="celsius">Celsius</label>
-                <input type="number" id="celsius" oninput= "cel_Far()">
+                <input type="number" id="celsius" oninput= "cel()">
             </div>
             <div class="container">
                 <label for="fahrenheit">Fahrenheit</label>
-                <input type="number" id="fahrenheit" oninput = "far_Cel()">
+                <input type="number" id="fahrenheit" oninput = "far()">
             </div>
         </div>
     </body>
 </html>
-
